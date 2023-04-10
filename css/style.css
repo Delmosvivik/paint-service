@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+ul>li {
+    list-style: none;
+    }
+ul {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.header {
+   padding-top: 16px;
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: 0;
+   border-bottom: solid 2px white;
+}
+.container {
+   max-width: 1130px;
+   padding: 0px 5px;
+   margin: 0 auto;
+}
+.header__container {
+   max-width: 1370px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   column-gap: 20px;
+   text-align: center;
+}
+.logo {
+    max-width: 187px;
+    min-width: 81px;
+}
+.logo__pic {
+}
+.nav {
+}
+.nav__link {
+     transition: opacity 0.3s;
+}
+.nav__list {
+    display: flex;
+    column-gap: 36px;
+
+}
+.nav__item {
+   border-bottom: 2px solid transparent;
+  
+}
+.nav__item.active {
+    border-bottom-color: white;
+}
+.nav__link:hover {
+opacity: 0.8;
+}
+.nav__link {
+font-size: 16px;
+line-height: 1.13;
+color: white;
+}
+.address {
+    display: flex;
+    align-items: center;
+    column-gap: 52px;
+    font-style: normal;
+}
+.tel {
+    color: white;
+}
+.location {
+    color: white;
+}
+.location::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+    background:url(../img/content/указатель.svg) bottom center/contain no-repeat;
+}
+.main {
+}
+.hero {
+  height: 100vh;
+  min-height: 650px;
+  background: url(../img/bg/hero-bg.png) no-repeat center/cover;
+  padding-top:272px ;
+}
+.title {
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+.subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 50px;
+}
+.hero__call-to-action{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 164px;
+}
+.red__text {
+    color: rgb(226, 93, 93);
+}
+.advantage {
+    border: 4px white solid;
+    border-radius: 5px;
+    height: 120px;
+    width: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.advantage__text {
+    color: white;
+}
+.advantages {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.hero__btns {
+    padding-bottom: 25px;
+    display: flex;
+    gap: 3rem;
+}
+.btn {
+    border-radius: 5px;
+    border: 4px white solid;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 10px 25px 10px 25px;
+    color: white;
+}
