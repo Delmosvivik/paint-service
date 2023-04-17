@@ -101,6 +101,19 @@ color: white;
     margin-right: 2px;
     background:url(../img/content/указатель.svg) bottom center/contain no-repeat;
 }
+@media (max-width: 960px) {
+     .container {
+        max-width: 898px;
+        padding: 0px 5px;
+        margin: 0 auto;
+     }
+     .logo {
+         max-width: 181px;
+     }
+     .location {
+         display: none;
+     }
+}
 .main {
     color: white;
 }
@@ -145,11 +158,16 @@ color: white;
     color: rgba(237, 113, 115, 1);
 }
 .advantage {
-    border: 2px solid white;
     border-radius: 4px;
-    width: 276px;
     text-align: center;
     padding: 16px 20px;
+}
+.hero__advantage {
+ flex: 0 1 276px;
+}
+.advantage_theme_transparent{
+     border: 2px solid white;
+     color: white;
 }
 .advantage__text {
     color: white;
@@ -177,3 +195,4 @@ color: white;
     color: white;
     padding: 12px 17px;
 }
+
