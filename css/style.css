@@ -101,19 +101,7 @@ color: white;
     margin-right: 2px;
     background:url(../img/content/указатель.svg) bottom center/contain no-repeat;
 }
-@media (max-width: 960px) {
-     .container {
-        max-width: 898px;
-        padding: 0px 5px;
-        margin: 0 auto;
-     }
-     .logo {
-         max-width: 181px;
-     }
-     .location {
-         display: none;
-     }
-}
+
 .main {
     color: white;
 }
@@ -127,6 +115,7 @@ color: white;
 }
 .hero__main {
     flex: 1;
+    padding-left: 96px;
 }
 .title {
     font-weight: 400;
@@ -196,3 +185,46 @@ color: white;
     padding: 12px 17px;
 }
 
+@media (max-width: 960px) {
+     .container {
+        max-width: 898px;
+        padding: 0px 5px;
+        margin: 0 auto;
+     }
+     .logo {
+         max-width: 181px;
+     }
+     .location {
+         display: none;
+     }
+     .hero {
+        padding-top:210px ;
+      }
+      .title {
+          font-size: 42px;
+      }
+      .hero__subtitle {
+          font-size: 22px;
+          margin-bottom: 70px;
+      }
+      .hero__main {
+        padding-left: 73px;
+      }
+}
+@media (max-width: 768px) {
+   .header .nav {
+    display: none;
+   }
+   .logo {
+    max-width: 142px;
+   }
+   .container {
+    max-width: 726px;
+   }
+   .hero {
+    padding-top: 170px;
+   }
+   .hero__main {
+    padding-left: 60px;
+   }
+}
