@@ -580,8 +580,8 @@ img {
     transform: translate(0, 300%);
 }
 
-.review__arrow .right {
-    transform: scaleX(-1) translate(0, 300%)
+.review__arrow-right {
+    transform:  translate(0, 300%)
 }
 .review__block-img-wrap {
     width: 455px;
@@ -592,6 +592,122 @@ img {
 .review__block-img {
     border-radius: 4px;
 }
+.examples {
+    padding-top: 62px;
+    padding-bottom: 98px;
+}
+.container {
+}
+.examples__content {
+}
+.examples__info {
+}
+.examples__title {
+}
+.examples__text {
+}
+.examples__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.examples__item {
+    flex: 0 1 calc((100% - 20px * 3) / 4);
+}
+.examples__item:hover .examples__img:nth-child(2) {
+    opacity: 0;
+}
+.examples__img-wrap {
+    padding-top: 100%;
+    position: relative;
+}
+.examples__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+.btn {
+}
+.btn__examples {
+}
+.application {
+    background-image: url(../img/bg/order__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 503px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.application__content {}
+
+.application__info {
+    margin-bottom: 62px;
+}
+
+.application__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 870px;
+    margin: 0 auto;
+}
+
+.application__order {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.application__col {
+    width: 50%;
+}
+
+.application_col-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 286px;
+    margin-bottom: 32px;
+}
+
+.btn__application {
+    background-color: black;
+    border-color: white;
+    width: 170px;
+    height: 44px;
+}
+
+.application__table {}
+
+.application__table:last-child {
+    margin-bottom: 0;
+}
+
+.application__input {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 360px;
+    height: 44px;
+    margin-bottom: 20px;
+}
+
+.btn__application-block {
+    width: 360px;
+}
+
 
 
 @media (max-width: 960px) {
@@ -688,6 +804,7 @@ img {
     .services {
         width: 960px;
         height: 763px;
+        margin-top: -40px;
     }
     .services__title {
         font-weight: 700;
@@ -708,6 +825,60 @@ img {
         font-size: 12px;
         line-height: 14px;
     }
+    .review {
+        width: 960px;
+        height: 337px;
+    }
+    .review__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        margin-top: -30px;
+    }
+    .review__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .review__block-img-wrap{
+        width: 400px;
+        height: 120px;
+    }
+    .examples{
+        width: 960px;
+        height: 551px;
+    }
+    .examples__title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        margin-top: -30px;
+    }
+    .examples__text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .examples__item{
+        width: 210px;
+        height: 211px;
+    }
+    .application{
+        width: 960px;
+        height: 400px;
+        margin-top: -20px;
+    }
+    .application__text{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .application__col-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -859,6 +1030,64 @@ img {
         font-weight: 400;
         font-size: 12px;
         line-height: 14px;
+    }
+    .review{
+        width: 768px;
+       height: 278px;
+    }
+    .review__title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .review__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .review__block-img-wrap{
+        width: 320px;
+        height: 96px;
+    }
+    .review__block {
+        margin-top: 30px;
+    }
+    .examples{
+        width: 770px;
+        height: 476px;
+    }
+    .examples__title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .examples__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .examples__item{
+        width: 168px;
+        height: 169px;
+    }
+    .examples__list{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .application{
+        width: 768px;
+        height: 522px;
+    }
+    .application__text{
+         font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .application__col-text{
+       
+    }
+    .application__order{
+        display: block;
     }
 }
 
