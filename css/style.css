@@ -298,7 +298,6 @@ img {
     line-height: 21px;
     color: #FFFFFF;
     text-align: center;
-    bottom: 10px;
 }
 
 .advantage__text::before {
@@ -591,11 +590,11 @@ img {
 .review__block-img-wrap {
     width: 455px;
     height: 136px;
-
 }
 
 .review__block-img {
     border-radius: 4px;
+    width: 100%;
 }
 .examples {
     padding-top: 62px;
@@ -959,6 +958,7 @@ margin-bottom: 60px;
     .map{
         width: 960px;
         height: 224px;
+        background-image: url(../img/bg/Карта\ 960.png);
     }
     .footer {
         width: 960px;
@@ -1182,6 +1182,7 @@ height: 80px;
     .map {
         width: 768px;
         height: 224px;
+        background-image: url(../img/bg/Карта\ 768.png);
     }
     .footer{
         width: 769px;
@@ -1248,11 +1249,17 @@ height: 80px;
 
     .logo-wrap {
         max-width: 81px;
+        left: 0;
+        top: 0;
+        position:absolute ;
     }
 
     .burger {
         width: 29px;
         height: 19px;
+        margin-top: 25px;
+        right: 0;
+        top: 0;
     }
     .burger__el,
     .burger__el::before,
@@ -1354,6 +1361,7 @@ height: 80px;
         font-weight: 700;
         font-size: 15px;
         line-height: 18px;
+        margin-top: -50px;
     }
     .details__subtitle {
         font-weight: 400;
@@ -1380,12 +1388,12 @@ height: 80px;
         font-weight: 700;
         font-size: 15px;
         line-height: 18px;
+        margin-top: -10px;
     }
     .auto__text{
         font-weight: 400;
         font-size: 12px;
         line-height: 14px;
-        
     }
     .auto__item {
         width: 290px;
@@ -1400,6 +1408,10 @@ height: 80px;
         font-size: 12px;
         line-height: 14px;
         display: flex;
+        color:black;
+        margin-top: -83px;
+        text-align: center;
+        padding: 25px;
     }
     .auto__img-wrap{
         width: 22px;
@@ -1432,6 +1444,100 @@ height: 80px;
     
     }
     .services__list{
-
+     
     }
+    .services__content{
+        display: block;
+    }
+    .review{
+        width: 320px;
+        height: 242px;
+    }
+    .review__block-img2{
+        display: none;
+    }
+    .review__block-img{
+        width: 254px;
+        height: 76px;
+    }
+    .review__title{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .review__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .examples{
+        width: 320px;
+        height: 573px;
+    }
+    .examples__title{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .examples__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .examples__item{
+        width: 140px;
+        height: 141px;
+    }
+    .examples__list{
+        
+    }
+    .application{
+        width: 320px;
+        height: 423px;
+    }
+.application__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+.application__col-text{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+.application__input{
+    width: 290px;
+    height: 35px;
+}
+.btn__application-block{
+    width: 290px;
+    height: 35px;
+}
+.map{
+    width: 320px;
+height: 132px;
+background-image: url(../img/bg/карта\ 320.png);
+}
+.footer{
+    width: 320px;
+height: 149px;
+}
+.footer__requisites{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+.footer__information{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+.footer__numbers{
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+bottom: 20px;
+}
 }
